@@ -1,0 +1,33 @@
+
+body {
+    background-image: url(../images/stadiumsmkv4fsnxsi9snc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* z-index: 0; */
+    background-image: cross-fade(10);
+}
+ 
+
+.hide {
+    display: none;
+}
+.left {
+    float: left;
+    color: red;
+    font-size: 20px;
+}
+.right {
+    float: right;
+    color: orangered;
+    font-size: 20px;
+
+}
+.clear {
+    clear: both;
+}
+#reset-container, h1 {
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
